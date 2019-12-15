@@ -24,7 +24,7 @@ exports.getDataGC= async (req, res, next) => {
     .exec(function (err, data) {
         if (err) return handleError(err);
         res.json(data);
-        console.log(data);
+        // console.log(data);
     })
 }
 
