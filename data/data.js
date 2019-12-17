@@ -1,4 +1,4 @@
- const data = [
+const data = [
     {
         day: "2",
         time:" 10:00 - 11:30",

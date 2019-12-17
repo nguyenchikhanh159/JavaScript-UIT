@@ -10,7 +10,8 @@ const Schedule=mongoose.Schema(
         room:String,
         start_day:String,
         end_day:String,
-        student_id:Number
+        student_id:Number,
+        time:String,
     }
 )
 
